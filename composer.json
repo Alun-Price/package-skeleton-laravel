@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "ecoonline/contactformapi",
+    "description": "This package uses the Spatie package-skeleton-laravel base to build a contact form tutorial package.",
     "keywords": [
-        ":vendor_name",
+        "EcoOnline",
         "laravel",
-        ":package_slug"
+        "contactformapi"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/ecoonline/contactformapi",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "alun-price",
+            "email": "alun.price@ecoonline.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "EcoOnline\\Contactformapi\\": "src",
+            "EcoOnline\\Contactformapi\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "EcoOnline\\Contactformapi\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "EcoOnline\\Contactformapi\\ContactformapiServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "Contactformapi": "EcoOnline\\Contactformapi\\ContactformapiFacade"
             }
         }
     },
