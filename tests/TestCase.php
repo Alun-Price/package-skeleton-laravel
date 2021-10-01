@@ -2,9 +2,9 @@
 
 namespace EcoOnline\Contactformapi\Tests;
 
+use EcoOnline\Contactformapi\ContactformapiServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use EcoOnline\Contactformapi\ContactformapiServiceProvider;
 
 class TestCase extends Orchestra
 {
