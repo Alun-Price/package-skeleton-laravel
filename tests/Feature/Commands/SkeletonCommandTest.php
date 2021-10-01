@@ -12,5 +12,3 @@ class SkeletonCommandTest extends TestCase
         $this->artisan('contactformapi')->assertExitCode(0);
     }
 }
-
-
