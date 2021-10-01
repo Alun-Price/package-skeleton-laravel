@@ -2,9 +2,9 @@
 
 namespace EcoOnline\Contactformapi;
 
+use EcoOnline\Contactformapi\Commands\ContactformapiCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use EcoOnline\Contactformapi\Commands\ContactformapiCommand;
 
 class ContactformapiServiceProvider extends PackageServiceProvider
 {
